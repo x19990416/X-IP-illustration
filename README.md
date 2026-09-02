@@ -30,7 +30,7 @@
 将仓库克隆到 Codex Skills 目录：
 
 ```bash
-git clone https://github.com/<your-account>/X-IP-illustration.git \
+git clone https://github.com/x19990416/X-IP-illustration.git \
   ~/.codex/skills/x-knowledge-illustrations
 ```
 
