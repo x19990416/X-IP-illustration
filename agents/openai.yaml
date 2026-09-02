@@ -1,4 +1,4 @@
 interface:
-  display_name: "X 知识插画"
-  short_description: "用固定 IP「X」把中文文章观点转成蓝黑手绘正文配图"
-  default_prompt: "Use $x-knowledge-illustrations to 为这篇中文内容设计并生成 X 知识火柴人正文配图。"
+  display_name: "X 知识插画与口播"
+  short_description: "把中文文章转成 X 插画、口播文案或逐页图文脚本"
+  default_prompt: "Use $x-knowledge-illustrations to 拆解这篇中文内容，并根据我的需要生成 X 知识火柴人插画、口播稿或逐页图文口播脚本。"

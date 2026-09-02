@@ -18,3 +18,5 @@ Skill 将长文压缩为八个连续认知页面：
 | 08 | 为社会保留返回证据的道路 | X 铺设机器答案与公共证据之间的道路 |
 
 ![八页总览](00-overview-contact-sheet.jpg)
+
+配套的约 3 分钟逐页口播稿见：[voiceover-script.md](voiceover-script.md)。

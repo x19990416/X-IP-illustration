@@ -11,6 +11,8 @@
 - 拆解长文并生成逐页 `shot list`
 - 将抽象观点转成可视化隐喻
 - 使用固定角色 X 连续生成多张插画
+- 将书面文章改写为 60 秒、90 秒、3 分钟或 5 分钟口播
+- 生成画面、口播、屏幕短字、时长和转场逐页对应的视频脚本
 - 保持角色、线条、配色和留白一致
 - 对角色漂移、错字和画面拥挤进行检查与修正
 
@@ -52,6 +54,18 @@ git clone https://github.com/x19990416/X-IP-illustration.git \
 使用 $x-knowledge-illustrations，把下面的文章拆成 8 页连续插画。保持 X 的角色、蓝黑手绘风格和画面比例一致，每页只讲一个核心观点。
 ```
 
+生成纯口播稿：
+
+```text
+使用 $x-knowledge-illustrations，把这篇文章改写成 90 秒口播文案。保留核心判断，语言自然，可以直接朗读。
+```
+
+生成图文口播联动稿：
+
+```text
+使用 $x-knowledge-illustrations，把这篇文章拆成 8 页、约 3 分钟的视频脚本。每页输出 X 插画设计、口播、屏幕短字、建议时长和转场。
+```
+
 ## 项目结构
 
 ```text
@@ -66,6 +80,7 @@ X-IP-illustration/
 │   ├── prompt-guide.md
 │   ├── qa.md
 │   ├── style-system.md
+│   ├── voiceover.md
 │   └── x-ip.md
 └── examples/
     └── public-library-ai/
@@ -87,6 +102,8 @@ X-IP-illustration/
 6. 保护公众的认知自主权
 7. 从交付资源转向支持知识任务
 8. 为机器答案铺设返回公共证据的道路
+
+对应的 3 分钟图文口播测试见：[voiceover-script.md](examples/public-library-ai/voiceover-script.md)。
 
 ## 说明
 
