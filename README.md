@@ -73,7 +73,7 @@ X-IP-illustration/
 
 ## 生成案例
 
-下面的案例来自文章《当获取答案越来越容易，公共图书馆的意义是啥？》：
+下面的案例来自文章[《人工智能时代公共图书馆的价值重构》](https://mp.weixin.qq.com/s/1Qp_SG_xzBI4SFJi5FK-7A)：
 
 ![公共图书馆 AI 时代插画总览](examples/public-library-ai/00-overview-contact-sheet.jpg)
 
