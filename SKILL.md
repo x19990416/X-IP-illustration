@@ -18,6 +18,7 @@ description: 用固定 IP「X」把中文文章、公众号、帖子、课程内
 - 需要为文章选图或设计构图时，读 [references/composition.md](references/composition.md)。
 - 准备调用生图或改图工具时，读 [references/prompt-guide.md](references/prompt-guide.md)。
 - 需要口播、短视频脚本、逐页旁白或字幕时，读 [references/voiceover.md](references/voiceover.md)。
+- 用户指定“短视频口播”风格时，继续读取 [references/styles/short-video.md](references/styles/short-video.md)。
 - 生成后检查时，读 [references/qa.md](references/qa.md)。
 
 ## 选择工作模式
@@ -29,6 +30,10 @@ description: 用固定 IP「X」把中文文章、公众号、帖子、课程内
 3. **图文口播联动模式**：把同一条叙事拆成连续页面，每页同时提供画面、口播、屏幕短字、时长和转场；用户要求生成图片时再逐页调用图像工具。
 
 用户只说“改成口播”时，默认使用口播模式。用户同时提到“画面、分镜、逐页、视频、字幕”时，优先使用图文口播联动模式。
+
+### 已固化文案风格
+
+- **短视频口播**：前 10 秒建立矛盾，短句、高密度、强递进、可直接朗读。用户未指定时长时默认 90 秒；未要求引导关注时，不自动添加关注、点赞或评论话术。
 
 ## 工作流
 
@@ -50,6 +55,7 @@ description: 用固定 IP「X」把中文文章、公众号、帖子、课程内
 - 用户要求“分析怎么配图、给建议、shot list”时，只输出配图策略。
 - 用户明确要求“生成、做图、输出图片”时，完成必要分析后直接生成，不要停在建议阶段。
 - 用户要求“口播、旁白、视频文案”时，先确定或合理推断目标时长，再按 `references/voiceover.md` 写成可以直接朗读的口语稿。
+- 用户指定“短视频口播”时，按 `references/styles/short-video.md` 执行；不要只把原文缩短，也不要把夸张标题当成钩子。
 - 用户要求“逐页画面 + 口播”时，每页绑定一个认知锚点，口播只解释当前画面承担的观点，不提前讲后续页面。
 - 每张图单独生成，不把多张正文图拼成一张总图。
 

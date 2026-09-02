@@ -20,3 +20,5 @@ Skill 将长文压缩为八个连续认知页面：
 ![八页总览](00-overview-contact-sheet.jpg)
 
 配套的约 3 分钟逐页口播稿见：[voiceover-script.md](voiceover-script.md)。
+
+短视频口播风格的 90 秒测试见：[short-video-90s.md](short-video-90s.md)。

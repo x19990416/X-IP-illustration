@@ -13,6 +13,7 @@
 - 使用固定角色 X 连续生成多张插画
 - 将书面文章改写为 60 秒、90 秒、3 分钟或 5 分钟口播
 - 生成画面、口播、屏幕短字、时长和转场逐页对应的视频脚本
+- 提供已固化的“短视频口播”风格：前 10 秒建立矛盾、短句强递进、默认 90 秒、不使用虚假悬念
 - 保持角色、线条、配色和留白一致
 - 对角色漂移、错字和画面拥挤进行检查与修正
 
@@ -60,6 +61,12 @@ git clone https://github.com/x19990416/X-IP-illustration.git \
 使用 $x-knowledge-illustrations，把这篇文章改写成 90 秒口播文案。保留核心判断，语言自然，可以直接朗读。
 ```
 
+调用已固化的短视频风格：
+
+```text
+使用 $x-knowledge-illustrations，采用“短视频口播”风格，把这篇文章改写成 90 秒口播。面向普通用户，不编造案例，不添加关注引导。
+```
+
 生成图文口播联动稿：
 
 ```text
@@ -81,6 +88,8 @@ X-IP-illustration/
 │   ├── qa.md
 │   ├── style-system.md
 │   ├── voiceover.md
+│   ├── styles/
+│   │   └── short-video.md
 │   └── x-ip.md
 └── examples/
     └── public-library-ai/
@@ -104,6 +113,8 @@ X-IP-illustration/
 8. 为机器答案铺设返回公共证据的道路
 
 对应的 3 分钟图文口播测试见：[voiceover-script.md](examples/public-library-ai/voiceover-script.md)。
+
+短视频口播风格的 90 秒测试见：[short-video-90s.md](examples/public-library-ai/short-video-90s.md)。
 
 ## 说明
 
