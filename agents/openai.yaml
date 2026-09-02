@@ -1,0 +1,4 @@
+interface:
+  display_name: "X 知识插画"
+  short_description: "用固定 IP「X」把中文文章观点转成蓝黑手绘正文配图"
+  default_prompt: "Use $x-knowledge-illustrations to 为这篇中文内容设计并生成 X 知识火柴人正文配图。"
